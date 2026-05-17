@@ -1,0 +1,56 @@
+.contact {
+    font-family: cursive;
+    background: linear-gradient(90deg, #B22222, #FF5733);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 15px;
+}
+
+.contact h2 {
+    font-family: cursive;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-family: cursive;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.contact-form {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    font-family: cursive;
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.contact-form button {
+    font-family: cursive;
+    padding: 12px 20px;
+    background: #f0d800;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    font-family: cursive;
+    background: #4903cc;
+}
